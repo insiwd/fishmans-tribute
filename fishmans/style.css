@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(48, 87, 88);
+}
+
+#img-div {
+    text-align: center;
+    margin-top: 5em;
+}
+
+#image {
+    width: 20em;
+    height: 10em;
+    border-radius: 1em;
+    box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.575);
+    cursor: pointer;
+    transition: width 1s;
+}
+
+#image:hover {
+    width: 18em;
+}
+
+#img-caption {
+    font-size: 1em;
+    font-weight: 700;
+    font-style: italic;
+    width: fit-content;
+    margin: auto;
+}
+
+#img-caption:hover {
+    color: aliceblue;
+    transition: 1s;
+    cursor: pointer;
+}
+
+#title {
+    width: max-content;
+    text-align: center;
+    font-weight: 400;
+    margin: 0 auto;
+    
+}
+
+#title:hover {
+    animation: Onda 1.6s ease-in-out infinite;
+    cursor: pointer;
+    transition: 1s;
+    color: rgb(92, 219, 194);
+    transition: transform 0.3s ease;
+    
+}
+
+.strong:hover {
+    color: rgb(62, 231, 90);
+    transition: 1s;
+}
+
+@keyframes Onda {
+    20% {
+        transform: translateY(-5px);
+        
+    }
+}
+
+#fishes-text {
+    text-align: center;
+    color: rgb(19, 26, 32);
+    font-size: larger;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+#fishes-text:hover {
+    transform: scale(2.1) ;
+    transition: 0.1s ease-in-out;
+    
+}
+
+
+
+.star1:hover {
+    color: rgb(255, 255, 0);
+    transition: 1s;
+}
+
+.star:hover {
+    color: rgb(73, 205, 228);
+    transition: 1s;
+}
+
+.fish:hover {
+    color: white;
+    transition: 1s;
+}
+
+.circle:hover {
+    color: aquamarine;
+    transition: 1s;
+}
+
+#circle:hover {
+    color: aqua;
+    transition: 1s;
+}
+
+#tribute-title {
+    text-align: center;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: rgb(9, 18, 26);
+}
+
+#tribute-info {
+    width: 50em;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 30em;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+article {
+    justify-content: center;
+    width: 100vw;
+}
+
+#gallery {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.gallery-img {
+    width: 200px;
+    max-width: 300px;
+    min-width: 100px;
+    transition: transform 0.3s ease;
+}
+
+.gallery-img:hover {
+    transform: scale(2.1);
+}
+
+a {
+    width: fit-content;
+    margin: auto;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(206, 198, 187);
+}
+
+a:hover {
+    color: aquamarine;
+}
+
+#iframe {
+    height: 200px;
+    width: 400px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
